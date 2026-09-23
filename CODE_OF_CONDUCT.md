@@ -41,3 +41,4 @@ This Code of Conduct applies to discussions, issues, pull requests, documentatio
 Project maintainers may remove comments, close issues or pull requests, or take other reasonable actions when behavior violates these standards.
 
 The goal is to keep the project useful, welcoming, and technically focused.
+
