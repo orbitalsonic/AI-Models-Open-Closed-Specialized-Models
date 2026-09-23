@@ -337,9 +337,9 @@ This category matters when the model must run on:
 | [Mistral Small / Ministral](https://huggingface.co/mistralai) | Small | Small | Local/general AI |
 | [SmolLM](https://huggingface.co/HuggingFaceTB) | Small | Tiny | Edge/local experiments |
 
-Google specifically positions Gemma 3 270M and 1B for mobile devices/single-board computers, while Gemma 3n E2B/E4B is designed for mobile and low-resource multimodal use. citeturn0search7
+Google specifically positions Gemma 3 270M and 1B for mobile devices/single-board computers, while Gemma 3n E2B/E4B is designed for mobile and low-resource multimodal use.
 
-Gemma 3 also supports 128K context on its 4B, 12B and 27B sizes, while the 270M and 1B versions use 32K context. citeturn0search0
+Gemma 3 also supports 128K context on its 4B, 12B and 27B sizes, while the 270M and 1B versions use 32K context.
 
 ---
 
@@ -358,7 +358,7 @@ OCR is one of the most interesting areas for small specialized models.
 | [Granite-Docling](https://huggingface.co/ibm-granite/granite-docling-258M) | ~258M | Yes | Document parsing |
 | [NuExtract](https://huggingface.co/numind) | Multiple | Yes | Structured extraction |
 
-Hugging Face's current OCR index shows nearly 2,000 OCR-tagged models, including PaddleOCR-VL, OvisOCR2, Surya OCR, LightOnOCR, DeepSeek-OCR, Granite-Docling and others. citeturn0search6
+Hugging Face's current OCR index shows nearly 2,000 OCR-tagged models, including PaddleOCR-VL, OvisOCR2, Surya OCR, LightOnOCR, DeepSeek-OCR, Granite-Docling and others.
 
 ### Example
 
@@ -1005,59 +1005,6 @@ Better suited to serving models as an API, especially on GPUs.
 ### Meta Llama
 
 **https://huggingface.co/meta-llama**
-
----
-
-# Final Takeaway
-
-There isn't one "best AI model".
-
-There are different winners for different jobs:
-
-```text
-General AI
-    → GPT / Claude / Gemini / Qwen / Llama / Mistral
-
-Reasoning
-    → DeepSeek / Qwen / GPT / Gemini / Claude
-
-Coding
-    → Devstral / Qwen Coder / DeepSeek Coder / GPT Codex / Claude
-
-OCR
-    → PaddleOCR-VL / DeepSeek-OCR / Granite-Docling
-
-RAG
-    → Qwen Embedding / BGE-M3 + reranker
-
-Speech
-    → Whisper / Parakeet / Kokoro
-
-Image
-    → FLUX / Stable Diffusion
-
-Segmentation
-    → SAM 2
-
-Object detection
-    → YOLO
-
-Video
-    → Wan / LTX-Video / HunyuanVideo
-
-Translation
-    → NLLB / MADLAD / TranslateGemma
-
-Small / Edge
-    → Gemma / Phi / Qwen small / SmolLM
-
-Computer agents
-    → UI-TARS / Devstral + tools
-```
-
-The most useful skill is therefore not memorizing model names. It is learning to ask:
-
-> **What is the task, what hardware do I have, what license do I need, and do I need local inference or an API?**
 
 ---
 
